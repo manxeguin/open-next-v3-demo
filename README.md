@@ -17,7 +17,7 @@ npm ci
 2. Build the application:
 
 ```sh
-npm run build-ap
+npm run build-app
 ```
 3. run preview
 
