@@ -1,6 +1,8 @@
 import styles from "./page.module.css";
 import { headers } from "next/headers";
 
+export const dynamic = "force-dynamic";
+
 export default function Home() {
   const headersList = headers();
   const injectedHeader = headersList.get("x-inserted-in-converter");

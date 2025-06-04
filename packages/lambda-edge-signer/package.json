@@ -1,0 +1,17 @@
+{
+  "name": "lambda-edge",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "esbuild index.ts --platform=node --bundle --outfile=dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "0.25.5"
+  }
+}

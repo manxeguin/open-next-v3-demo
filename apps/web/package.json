@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build-app": "custom-nextjs-build -i ./",
+    "build-app": "custom-nextjs-build -i ./ -m lambda",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
